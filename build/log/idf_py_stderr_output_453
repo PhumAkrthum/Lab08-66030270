@@ -1,0 +1,11 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/opt/esp/python_env/idf6.0_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 /project
+CMake Error at /opt/esp/idf/tools/cmake/build.cmake:332 (message):
+  Failed to resolve component 'PhumAkrthum/sensor' required by component
+  'main': unknown name.
+Call Stack (most recent call first):
+  /opt/esp/idf/tools/cmake/build.cmake:375 (__build_resolve_and_add_req)
+  /opt/esp/idf/tools/cmake/build.cmake:705 (__build_expand_requirements)
+  /opt/esp/idf/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:3 (project)
+
+

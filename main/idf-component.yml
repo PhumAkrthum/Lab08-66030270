@@ -1,0 +1,4 @@
+dependencies:
+  PhumAkrthum/sensor:
+    git: https://github.com/PhumAkrthum/sensor.git
+    path: Sensors  # เพิ่มบรรทัดนี้
